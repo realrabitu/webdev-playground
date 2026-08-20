@@ -1,0 +1,20 @@
+html {
+    font-size: 16px;
+    font-family: "Google Sans", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+}
+div {
+    border: 2px solid black;
+    padding: 20px;
+}
