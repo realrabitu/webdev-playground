@@ -1,10 +1,57 @@
+* {
+    box-sizing: border-box; /* asterisk (*) refers to EVERY element */
+}
+
 html{
+    scroll-behavior: smooth;
     font-size: 16px;
     font-family: "Google Sans", sans-serif;
     background-color: #FAF7EA;
 }
 
+body {
+    margin: 20px;
+    padding: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between; 
+    border: 1px solid black;
+}
+
 h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    gap: 50px;
+    list-style: none;
+    border: 1px solid black;
+    background-color: beige;
+}
+
+main {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+nav a {
+    color: green;
+}
+/* h1 {
     margin: 0 auto;
     width: 80%;  
     padding: 20px 0;
@@ -14,11 +61,12 @@ h1 {
     text-align: center;
     text-shadow: 3px 3px 1px black;
 }
+*/
 
-h2, ol, p {
+/*h2, ol, p {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     padding: 20px 0;
-}
+}*/
 
