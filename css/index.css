@@ -10,7 +10,7 @@ html{
 }
 
 body {
-    margin: 20px;
+    margin: 0;
     padding: 20px;
     border-color: black;
     border-width: 1px;
@@ -50,6 +50,7 @@ main {
 
 nav a {
     color: green;
+    text-decoration: none;
 }
 /* h1 {
     margin: 0 auto;
