@@ -126,3 +126,9 @@ nav {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
+
+.header-link {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
