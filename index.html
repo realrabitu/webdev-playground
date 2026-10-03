@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-US">
     <head>
-        <link href="css/index.css" rel="stylesheet"/>
+        <link href="style.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
@@ -11,32 +11,27 @@
     </head>
 
     <body>
-        <header>
-        <h1>Rabitu's Web Playground</h1>
-        <nav>
+        <div class="off-screen-menu">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact </li>
             </ul>
+        </div>
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
-        </header>
-        <main>
-            <section id="home">
-                <h2>Hi, I'm Rabitu.</h2>
-            </section>
-            <section id="about">
-                <h2>About Me</h2>
-            </section>
-            <section id="projects">
-                <h2>My Projects</h2>
-            </section>
-            <section id="contact">
-
-            </section>
-        </main>
-        <footer></footer>
+        <div class="container">
+            <div class="box1">LOGIN</div>
+            <div class="box2">ABOUT</div>
+            <div class="box3">EXIT</div>
+            <div class="box4">LOGOUT</div>
+        </div>
+        <script src="main.js"></script>
     </body>
     
 </html>
