@@ -11,20 +11,22 @@
     </head>
 
     <body>
-        <header>
-            <div class="off-screen-menu">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact </li>
-            </ul>
-        </div>
-        <nav>
+        <header id="header" class="header">
             <a class="header-link" href="#">Rabitu's Web Playground</a>
-            <div class="ham-menu">
+
+        <nav>
+            <a class="login">Login</a>
+            <button class="ham-menu" type="button" aria-label="Open menu" aria-controls="off-screen-menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
+            </button>
+            <div class="off-screen-menu" id="off-screen-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
         </nav>
         </header>
